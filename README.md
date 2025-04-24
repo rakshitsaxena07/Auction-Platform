@@ -1,4 +1,4 @@
-# Auction Platform -> FullStack(MERN) Project
+# Auction Platform -> FullStack Project
 
 A full-fledged, feature-rich **Auction Website** built with the powerful **MERN stack** (MongoDB, Express.js, React.js, Node.js). This project simulates a real-world auction platform with functionalities like user registration, bidding, auction creation, payment verification, and admin automation.
 
