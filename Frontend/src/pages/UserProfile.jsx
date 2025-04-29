@@ -116,7 +116,7 @@ const UserProfile = () => {
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700">
-                        Bank Account (IBAN)
+                        Bank Account (AccNO)
                       </label>
                       <input
                         type="text"
@@ -140,19 +140,7 @@ const UserProfile = () => {
                         disabled
                       />
                     </div>
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700">
-                        Easypaisa Account Number
-                      </label>
-                      <input
-                        type="text"
-                        defaultValue={
-                          user.paymentMethods.easypaisa.easypaisaAccountNumber
-                        }
-                        className="w-ful mt-1 p-2 border-gray-300 rounded-md focus:outline-none"
-                        disabled
-                      />
-                    </div>
+                  
                     <div>
                       <label className="block text-sm font-medium text-gray-700">
                         Paypal Email

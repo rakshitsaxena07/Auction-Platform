@@ -26,7 +26,6 @@ export const register = catchAsyncErrors(async (req, res, next) => {
     bankAccountNumber,
     bankAccountName,
     bankName,
-    easypaisaAccountNumber,
     paypalEmail,
   } = req.body;
 
